@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins";
+}
+
+/* Navbar CSS */
+
+.container {
+  margin: 3vh 6vh;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+nav .list {
+  display: flex;
+  justify-content: center;
+  padding: 7px 20px;
+  list-style-type: none;
+}
+
+nav .list-item {
+  padding: 10px 20px;
+  opacity: 0.6;
+}
+
+.list-item:first-child {
+  font-weight: 900;
+}
+
+.button-group {
+  position: relative;
+  left: 35rem;
+  padding: 20px 30px;
+}
+
+.button-group > .nav-button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5955b3;
+  color: #ffffff;
+}
+
+/* Banner CSS */
+
+.banner-container {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-text {
+  color: #3c2f60;
+  font-size: 60px;
+  margin-top: 20%;
+}
+
+h1 > span {
+  color: #5955b3;
+}
+
+.description {
+  text-align: justify;
+  padding: 10px 180px 0 0px;
+  opacity: 0.6;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5955b3;
+  color: #ffffff;
+}
